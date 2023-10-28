@@ -30,9 +30,9 @@ postData(FULL_URL).then((data) => {
         const row = document.createElement("tr");
         
         const cell1 = document.createElement("td");
-        cell1.textContent = azienda;
+        cell1.textContent = dipendente;
         const cell2 = document.createElement("td");
-        cell2.textContent = dipendente;
+        cell2.textContent = azienda;
         const cell3 = document.createElement("td");
         cell3.textContent = timestamp;
         
