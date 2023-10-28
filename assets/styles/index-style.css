@@ -65,3 +65,20 @@ body {
 .button:hover {
     background-color: #0055CC; /* Colore di sfondo del bottone al passaggio del mouse */
 }
+
+/* Responsive */
+@media screen and (max-width: 600px) {
+    table {
+        border: 0;
+    }
+    td {
+        border: 0;
+        display: block;
+        text-align: center;
+    }
+    .topbar {
+        border: 0;
+        display: block;
+        width: 100%;
+    }
+}
