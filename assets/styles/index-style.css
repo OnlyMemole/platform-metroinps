@@ -66,6 +66,12 @@ body {
     background-color: #0055CC; /* Colore di sfondo del bottone al passaggio del mouse */
 }
 
+
+.container {
+    background-color: white;
+    border-radius: 15px;
+}
+
 /* Responsive */
 @media screen and (max-width: 600px) {
     table {
