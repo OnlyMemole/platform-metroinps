@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="assets/script/assunzioni.js"></script>
+        <link rel="stylesheet" href="./assets/styles/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+        <title>INPS - Assunzioni</title>
+    </head>
+    <body>
+        <div class="topbar">
+            <div class="info">
+                <a href = "https://t.me/InpsMetropolis"><span>INPS Metropolis</span></a>
+            </div>
+            <div class="quick-links">
+                <a href="assunzioni.html">Assunzioni</a>
+                <a href="autodepex.html">Autodepex</a>
+            </div>
+        </div>
+        <center>
+            <div style="border: 1px solid #444;">
+                <span class="search-icon"><i class="fas fa-search icon"></i></span>
+                <input type="text" id="searchInput" placeholder="Cerca...">
+            </div>
+        </center>
+        <table id="table">
+            <thead>
+              <tr>
+                <th>Azienda</th>
+                <th>Dipendente/i</th>
+                <th>Data e Ora</th>
+              </tr>
+            </thead>
+            <tbody id = "values">
+            </tbody>
+        </table>
+        <script>
+            document.getElementById("searchInput").addEventListener("input", searchTable);
+        </script>
+    </body>
+</html>
