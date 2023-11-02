@@ -23,8 +23,8 @@ postData(FULL_URL).then((data) => {
 
   for(let i = 0; i<lenght;i++){
       try{
-        let azienda = value[i].c[3].v;
-        let dipendente = value[i].c[4].v;
+        let azienda = value[i].c[2].v;
+        let dipendente = value[i].c[1].v;
         let timestamp = value[i].c[0].f;
         
         const row = document.createElement("tr");
